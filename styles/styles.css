@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-y: hidden;
+}
+
+.login-content-area {
+  background-color: #4e5bee;
+  width: 40vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20vh 10vw 5vh 10vw;
+}
+
+.login-content-area img {
+  width: 25vh;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  margin-bottom: 100px;
+}
+
+.login-content-area input[type="text"] {
+  border-radius: 50px;
+  border: 5px solid #f8f8f8;
+  background-color: #4e5bee;
+  color: #f8f8f8;
+  font-family: "Roboto", sans-serif;
+  height: 8%;
+  margin-bottom: 20px;
+  padding-left: 40px;
+}
+
+.login-content-area input[type="password"] {
+  border-radius: 50px;
+  border: 5px solid #f8f8f8;
+  background-color: #4e5bee;
+  color: #f8f8f8;
+  font-family: "Roboto", sans-serif;
+  height: 8%;
+  margin-bottom: 20px;
+  padding-left: 40px;
+}
+
+.login-content-area button {
+  border-radius: 50px;
+  font-family: "Roboto", sans-serif;
+  height: 8%;
+}
+
+.login-content-area p {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: #f8f8f8;
+  font-size: 2vh;
+  margin-top: 100px;
+}
+
+.login-content-area a {
+  margin-top: 10px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: #f8f8f8;
+  font-size: 2vh;
+}
+
+.image-side {
+  padding: 10vh 2vw;
+}
+/*# sourceMappingURL=styles.css.map */

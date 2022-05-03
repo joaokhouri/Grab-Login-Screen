@@ -1,0 +1,74 @@
+$font-default: "Roboto", sans-serif;
+$blue: #4e5bee;
+$red: #ff5757;
+$grey: #f8f8f8;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  overflow-y: hidden;
+}
+
+.login-content-area {
+  background-color: $blue;
+  width: 40vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 20vh 10vw 5vh 10vw;
+  img {
+    width: 25vh;
+    align-self: center;
+    justify-self: center;
+    margin-bottom: 100px;
+  }
+  input[type="text"] {
+    border-radius: 50px;
+    border: 5px solid $grey;
+    background-color: $blue;
+    color: $grey;
+    font-family: $font-default;
+    height: 8%;
+    margin-bottom: 20px;
+    padding-left: 40px;
+  }
+  input[type="password"] {
+    border-radius: 50px;
+    border: 5px solid $grey;
+    background-color: $blue;
+    color: $grey;
+    font-family: $font-default;
+    height: 8%;
+    margin-bottom: 20px;
+    padding-left: 40px;
+  }
+  button {
+    border-radius: 50px;
+    font-family: $font-default;
+    height: 8%;
+  }
+  p {
+    text-align: center;
+    font-family: $font-default;
+    color: $grey;
+    font-size: 2vh;
+    margin-top: 100px;
+  }
+  a {
+    margin-top: 10px;
+    text-align: center;
+    font-family: $font-default;
+    text-decoration: none;
+    color: $grey;
+    font-size: 2vh;
+  }
+}
+
+.image-side {
+  padding: 10vh 2vw;
+}
